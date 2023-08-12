@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CalcularHoraExtra</string>
+    <string name="calcularHoraExtra">Calcular Hora Extra</string>
+    <string name="salarioBruto">Salário bruto é aquele registrado na CTPS, sem considerar os descontos legais (INSS e IR).</string>
+    <string name="cargaHoraria">Informar a carga horária mensal de trabalho (se você não souber, basta multiplicar a quantidade de horas trabalhadas na semana por 5. Ex: 44h semanais equivalem a 220h mensais).</string>
+    <string name="quantHoraExtra">Informar a quantidade de Hora Extra que você quer calcular no formato hh:mm (horas:minutos).</string>
+    <string name="calcular">Calcular</string>
+    <string name="quantidade_de_horas_extras">Quantidade de horas extras</string>
+    <string name="carga_hor_ria_mensal">Carga horária Mensal</string>
+    <string name="s_lario_bruto">Sálario Bruto</string>
+    <string name="image_help">Precisa de ajuda?</string>
+</resources>

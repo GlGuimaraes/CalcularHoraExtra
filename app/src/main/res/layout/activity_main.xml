@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#880cd4"
+    android:orientation="vertical"
+    android:padding="13dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/denk_one"
+        android:text="@string/calcularHoraExtra"
+        android:textAllCaps="true"
+        android:textColor="#DDFFFFFF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edit_gross_salary"
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:autofillHints=""
+        android:fontFamily="@font/denk_one"
+        android:hint="@string/s_lario_bruto"
+        android:inputType="numberDecimal"
+        android:textColor="#DDFFFFFF"
+        android:textColorHint="#DDFFFFFF" />
+
+
+    <ImageView
+        android:contentDescription="@string/image_help"
+        android:id="@+id/image_helpTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/help" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/text_imageHelpTop"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/color_textHelp"/>
+
+
+    <EditText
+        android:id="@+id/edit_workload"
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:fontFamily="@font/denk_one"
+        android:hint="@string/carga_hor_ria_mensal"
+        android:inputType="numberDecimal"
+        android:textColor="#DDFFFFFF"
+        android:textColorHint="#DDFFFFFF" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/help"
+        tools:ignore="ImageContrastCheck"
+        android:id="@+id/image_helpMid"
+        android:contentDescription="@string/image_help" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/text_imageHelpMid"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/color_textHelp"/>
+
+    <EditText
+        android:id="@+id/edit_quanty_hour"
+        android:layout_width="380dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:autofillHints=""
+        android:fontFamily="@font/denk_one"
+        android:hint="@string/quantidade_de_horas_extras"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="#DDFFFFFF" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/image_helpBot"
+        android:layout_height="wrap_content"
+        android:src="@drawable/help"
+        android:contentDescription="@string/image_help"
+        tools:ignore="ImageContrastCheck" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/text_imageHelpBot"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/color_textHelp"/>
+
+    <Button
+        android:id="@+id/buttton_calculate"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#f0ecf4"
+        android:fontFamily="@font/denk_one"
+        android:text="@string/calcular"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_total_receivable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/text_amout_receivable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textColor="@color/color_textHelp"
+        android:layout_marginTop="60dp"
+        android:text="By: Guilherme Guimarães"
+
+        />
+
+
+</LinearLayout>
